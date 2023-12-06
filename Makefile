@@ -6,3 +6,5 @@ clean:
 	docker stop webserver
 	docker rm webserver
 	docker rmi webserver
+rerun: clean run
+	true
